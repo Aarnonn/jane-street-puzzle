@@ -1,0 +1,4 @@
+pytorch
+gradio
+huggingface_hub
+cloudpickle
