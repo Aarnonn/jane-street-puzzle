@@ -1,6 +1,6 @@
 import torch
 
-model = torch.load("model.pt", weights_only=False)
+model = torch.load("models/model.pt", weights_only=False)
 model.eval()
 
 # Input to first layer:
@@ -79,6 +79,7 @@ print("Found init_tensor with nonzero gradient.")
 #     # print(target_model(init_tensor))
 # print(target_model(init_tensor))
 print(model[:-1](init_tensor_layer_0))
+print(model("vegetable dog"))
 
 # print(out(new_input))
 

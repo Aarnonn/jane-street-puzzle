@@ -1,6 +1,6 @@
 import torch
 
-model = torch.load("model.pt", weights_only=False)
+model = torch.load("models/model.pt", weights_only=False)
 
 non_random_inputs = [
     # 1. Linearly increasing
