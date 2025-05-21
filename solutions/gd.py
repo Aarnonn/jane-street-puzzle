@@ -1,6 +1,6 @@
 import torch
 
-model = torch.load("model_3_11.pt", weights_only=False)
+model = torch.load("model.pt", weights_only=False)
 model.eval()
 
 # Input to first layer:
