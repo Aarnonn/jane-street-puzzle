@@ -4,6 +4,7 @@ models/
 *.ckpt
 *.bin
 .DS_Store
+two_word_permutations.txt
 
 # Python cache and virtualenv
 __pycache__/
