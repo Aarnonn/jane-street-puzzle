@@ -1,0 +1,11 @@
+# Ignore models and large files
+models/
+*.pt
+*.ckpt
+*.bin
+
+# Python cache and virtualenv
+__pycache__/
+*.pyc
+.env/
+.venv/
