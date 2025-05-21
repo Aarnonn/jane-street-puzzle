@@ -3,6 +3,7 @@ models/
 *.pt
 *.ckpt
 *.bin
+.DS_Store
 
 # Python cache and virtualenv
 __pycache__/
