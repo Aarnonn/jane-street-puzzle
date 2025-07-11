@@ -14,7 +14,7 @@ def hook_fn(module, input, output):
 hook = model[-2].register_forward_hook(hook_fn)
 
 # Input file
-input_file = "two_word_permutations.txt"
+input_file = "small_two_word_permutations.txt"
 
 # Process phrases
 with open(input_file, "r") as f:

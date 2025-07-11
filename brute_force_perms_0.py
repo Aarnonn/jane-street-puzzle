@@ -14,7 +14,7 @@ def hook_fn(module, input, output):
 hook = model[0].register_forward_hook(hook_fn)
 
 # Input file
-input_file = "two_word_permutations.txt"
+input_file = "ascii_sequences_non_overlap_no_pad_hex.txt"
 
 # Process phrases
 with open(input_file, "r") as f:
